@@ -1,7 +1,10 @@
 import {
-  mobile,
-  backend,
-  creator,
+  fintech,
+  blockchain,
+  web3,
+  nordic,
+  sorvella,
+  elixir,
   web,
   javascript,
   typescript,
@@ -10,19 +13,15 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  nextjs,
+  postman,
+  solidity,
   carrent,
   jobit,
-  tripguide,
-  threejs
+  tripguide
 } from '../assets'
 
 export const navLinks = [
@@ -47,15 +46,15 @@ const services = [
   },
   {
     title: 'Web3',
-    icon: mobile
+    icon: web3
   },
   {
     title: 'BlockChain',
-    icon: creator
+    icon: blockchain
   },
   {
     title: 'FinTech',
-    icon: backend
+    icon: fintech
   }
 ]
 
@@ -81,6 +80,10 @@ const technologies = [
     icon: reactjs
   },
   {
+    name: 'Next JS',
+    icon: nextjs
+  },
+  {
     name: 'Redux Toolkit',
     icon: redux
   },
@@ -89,16 +92,12 @@ const technologies = [
     icon: tailwind
   },
   {
-    name: 'Node JS',
-    icon: nodejs
-  },
-  {
     name: 'MongoDB',
     icon: mongodb
   },
   {
-    name: 'Three JS',
-    icon: threejs
+    name: 'Postman',
+    icon: postman
   },
   {
     name: 'git',
@@ -109,62 +108,52 @@ const technologies = [
     icon: figma
   },
   {
-    name: 'docker',
-    icon: docker
+    name: 'Solidity',
+    icon: solidity
   }
 ]
 
 const experiences = [
   {
     title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    company_name: 'Nordic (nordiccar.com)',
+    icon: nordic,
+    iconBg: '#000',
+    date: 'September 2021 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Developing and maintaining web project using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
     ]
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'Assistant Manager/Accountant',
+    company_name: 'Sorvella',
+    icon: sorvella,
+    iconBg: '#3e3f40',
+    date: 'Jun 2020 - Dec 2020',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Managing accounting processes for purchases, distribution, and sales control.',
+      'Overseeing stock control to optimize inventory levels and meet demand.',
+      'Generating financial reports to support informed decision-making.',
+      'Distributing products to stands from stock to enhance visibility and sales opportunities.'
     ]
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    title: 'Assistant Accountant',
+    company_name: 'Elixir',
+    icon: elixir,
+    iconBg: '#42a4f5',
+    date: 'Jan 2020 - May 2020',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Generating and managing invoices for products or services rendered.',
+      'Preparing documents required by revenue services for compliance purposes.',
+      'Handling money transfers for various transactions and payments.',
+      'Managing bonuses, salaries, and related tax obligations for employees.',
+      'Accounting for production, procurement, and sales activities to track financial transactions.',
+      "Generating financial reports to provide insights into the company's financial performance.",
+      'Conducting stock control to optimize inventory levels and meet demand efficiently.'
     ]
   }
 ]
