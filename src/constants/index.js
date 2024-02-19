@@ -19,9 +19,9 @@ import {
   nextjs,
   postman,
   solidity,
-  carrent,
-  jobit,
-  tripguide
+  cars,
+  onlinestore,
+  santaapp
 } from '../assets'
 
 export const navLinks = [
@@ -187,67 +187,74 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Vintage Auto',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'webpage with image carousel of cars, service cards, with cool animations and contact section',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient'
+        name: 'HTML5',
+        color: 'text-orange-500'
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient'
+        name: 'CSS3',
+        color: 'text-sky-600'
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient'
+        name: 'JavaScript',
+        color: 'text-yellow-500'
       }
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/'
+    image: cars,
+    source_code_link: 'https://github.com/iraklishub/cars',
+    live_link: 'https://iraklishub.github.io/cars/'
   },
   {
-    name: 'Job IT',
+    name: 'Online Store',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'online store website with Auth, add to favorites/cart functionalities, homepage, products page with filters',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient'
+        name: 'NextJS',
+        color: 'text-slate-500'
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient'
+        name: 'ReduxToolkit',
+        color: 'text-violet-500'
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient'
+        name: 'TailwindCSS',
+        color: 'text-sky-600'
       }
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/'
+    image: onlinestore,
+    source_code_link: 'https://github.com/iraklishub/onlinestore',
+    live_link: 'https://nextstoretest.vercel.app'
   },
   {
-    name: 'Trip Guide',
+    name: 'Santa WebApp',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Christmas themed webApp, with games, market and letter sending service, with language switcher and beautiful animations',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient'
+        name: 'NextJS',
+        color: 'text-slate-500'
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient'
+        name: 'ReactEmail',
+        color: 'text-cyan-500'
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient'
+        name: 'LottieReact',
+        color: 'text-teal-400'
+      },
+      {
+        name: 'TailwindCSS',
+        color: 'text-sky-600'
       }
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/'
+    image: santaapp,
+    source_code_link: 'https://github.com/iraklishub/',
+    live_link: 'https://santababu.vercel.app/'
   }
 ]
 

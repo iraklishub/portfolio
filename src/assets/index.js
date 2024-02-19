@@ -25,9 +25,9 @@ import nordic from './company/nordic.png'
 import sorvella from './company/sorvella.jpeg'
 import elixir from './company/elixir.jpeg'
 
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
+import cars from './cars.png'
+import onlinestore from './onlinestore.png'
+import santaapp from './santaapp.png'
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
   nextjs,
   postman,
   solidity,
-  carrent,
-  jobit,
-  tripguide
+  cars,
+  onlinestore,
+  santaapp
 }
