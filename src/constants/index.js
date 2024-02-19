@@ -128,7 +128,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Assistant Manager/Accountant',
+    title: 'Assistant Manager / Accountant',
     company_name: 'Sorvella',
     icon: sorvella,
     iconBg: '#3e3f40',
