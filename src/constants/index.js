@@ -161,27 +161,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg'
+      'It was a pleasure to have Irakli as part of our team, Irakli was always diligent and productive and always willing to learn and develop his skills during the time he was with us. I would highly recommend Irakli to any employer.',
+    name: 'Damon P.',
+    designation: 'Managing Director',
+    company: 'Nordic'
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg'
+      'Irakli is an intelligent, hard-working and mature individual with a very conscientious character. He came to us as a relatively unexperienced front end developer but he possessed exceptional theoretical programming knowledge. It was satisfying to watch him put this into play and develop into a skilled and reliable programmer. Always punctual, polite, friendly and with a positive attitude, Irakli is a pleasure to work with and will be a net contributor to any team or project.',
+    name: 'Jonny L.',
+    designation: 'Manager',
+    company: 'Nordic'
   }
 ]
 
